@@ -1,6 +1,6 @@
 FROM node:16
 
-# Create app directory
+# Create app directory.
 WORKDIR /home/openbackhaul/microWaveDeviceInventory
 
 # Install and app dependencies
