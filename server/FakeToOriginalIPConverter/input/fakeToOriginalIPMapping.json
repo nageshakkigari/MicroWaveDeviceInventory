@@ -1,0 +1,146 @@
+{
+	    "fake-to-original-iP-mapping": [{
+		                "category": "TinyApplicationController",
+				            "abbreviation" : "RO",
+					                "component": "RegistryOffice",
+							            "release": "2.1.2",
+								                "fake-tcp-port": 3031,
+										            "original-address": {
+												                    "ip-address": {
+															                        "ipv-4-address": "poc-ro.vf-mw-backhaul.svc.cluster.local"
+																		                }
+																				            },
+																					                "original-tcp-port": 3031
+																							        },
+																								        {
+																										            "category": "TinyApplicationController",
+																											                "abbreviation" : "TAR",
+																													            "component": "TypeApprovalRegister",
+																														                "release": "2.1.2",
+																																            "fake-tcp-port": 3032,
+																																	                "original-address": {
+																																				                "ip-address": {
+																																							                    "ipv-4-address": "poc-tar.vf-mw-backhaul.svc.cluster.local"
+																																									                    }
+																																											                },
+																																													            "original-tcp-port": 3032
+																																														            },
+																																															            {
+																																																	                "category": "TinyApplicationController",
+																																																			            "abbreviation" : "EATL",
+																																																				                "component": "ExecutionAndTraceLog",
+																																																						            "release": "2.1.2",
+																																																							                "fake-tcp-port": 3033,
+																																																									            "original-address": {
+																																																											                    "ip-address": {
+																																																														                        "ipv-4-address": "poc-eatl.vf-mw-backhaul.svc.cluster.local"
+																																																																	                }
+																																																																			            },
+																																																																				                "original-tcp-port": 3033
+																																																																						        },
+																																																																							        {
+																																																																									            "category": "TinyApplicationController",
+																																																																										                "abbreviation" : "OL",
+																																																																												            "component": "OamLog",
+																																																																													                "release": "2.1.2",
+																																																																															            "fake-tcp-port": 3034,
+																																																																																                "original-address": {
+																																																																																			                "ip-address": {
+																																																																																						                    "ipv-4-address": "poc-oam.vf-mw-backhaul.svc.cluster.local"
+																																																																																								                    }
+																																																																																										                },
+																																																																																												            "original-tcp-port": 3034
+																																																																																													            },
+																																																																																														            {
+																																																																																																                "category": "TinyApplicationController",
+																																																																																																		            "abbreviation" : "AA",
+																																																																																																			                "component": "AccessAdministration",
+																																																																																																					            "release": "2.1.2",
+																																																																																																						                "fake-tcp-port": 3035,
+																																																																																																								            "original-address": {
+																																																																																																										                    "ip-address": {
+																																																																																																													                        "ipv-4-address": "poc-aa.vf-mw-backhaul.svc.cluster.local"
+																																																																																																																                }
+																																																																																																																		            },
+																																																																																																																			                "original-tcp-port": 3035
+																																																																																																																					        },
+																																																																																																																						        {
+																																																																																																																								            "category": "TinyApplicationController",
+																																																																																																																									                "abbreviation" : "ALT",
+																																																																																																																											            "component": "ApplicationLayerTopology",
+																																																																																																																												                "release": "2.1.2",
+																																																																																																																														            "fake-tcp-port": 3036,
+																																																																																																																															                "original-address": {
+																																																																																																																																		                "ip-address": {
+																																																																																																																																					                    "ipv-4-address": "poc-alt.vf-mw-backhaul.svc.cluster.local"
+																																																																																																																																							                    }
+																																																																																																																																									                },
+																																																																																																																																											            "original-tcp-port": 3036
+																																																																																																																																												            },
+																																																																																																																																													            {
+																																																																																																																																															                "category": "TinyApplicationController",
+																																																																																																																																																	            "abbreviation" : "OKM",
+																																																																																																																																																		                "component": "OperationKeyManagement",
+																																																																																																																																																				            "release": "2.1.2",
+																																																																																																																																																					                "fake-tcp-port": 3037,
+																																																																																																																																																							            "original-address": {
+																																																																																																																																																									                    "ip-address": {
+																																																																																																																																																												                        "ipv-4-address": "poc-okm.vf-mw-backhaul.svc.cluster.local"
+																																																																																																																																																															                }
+																																																																																																																																																																	            },
+																																																																																																																																																																		                "original-tcp-port": 3037
+																																																																																																																																																																				        },
+																																																																																																																																																																					        {
+																																																																																																																																																																							            "category": "TinyApplicationController",
+																																																																																																																																																																								                "abbreviation" : "ELK",
+																																																																																																																																																																										            "component": "ElasticSearch",
+																																																																																																																																																																											                "release": "1.0.0",
+																																																																																																																																																																													            "fake-tcp-port": 9200,
+																																																																																																																																																																														                "original-address": {
+																																																																																																																																																																																	                "ip-address": {
+																																																																																																																																																																																				                    "ipv-4-address": "poc-es.vf-mw-backhaul.svc.cluster.local"
+																																																																																																																																																																																						                    }
+																																																																																																																																																																																								                },
+																																																																																																																																																																																										            "original-tcp-port": 9200
+																																																																																																																																																																																											            },
+																																																																																																																																																																																												            {
+																																																																																																																																																																																														                "category": "TinyApplicationController",
+																																																																																																																																																																																																            "abbreviation" : "NP",
+																																																																																																																																																																																																	                "component": "NotificationProxy",
+																																																																																																																																																																																																			            "release": "1.0.1",
+																																																																																																																																																																																																				                "fake-tcp-port": 3014,
+																																																																																																																																																																																																						            "original-address": {
+																																																																																																																																																																																																								                    "ip-address": {
+																																																																																																																																																																																																											                        "ipv-4-address": "poc-np.vf-mw-backhaul.svc.cluster.local"
+																																																																																																																																																																																																														                }
+																																																																																																																																																																																																																            },
+																																																																																																																																																																																																																	                "original-tcp-port": 3014
+																																																																																																																																																																																																																			        },
+																																																																																																																																																																																																																				        {
+																																																																																																																																																																																																																						            "category": "TinyApplicationController",
+																																																																																																																																																																																																																							                "abbreviation" : "MWDI",
+																																																																																																																																																																																																																									            "component": "MicroWaveDeviceInventory",
+																																																																																																																																																																																																																										                "release": "1.2.1",
+																																																																																																																																																																																																																												            "fake-tcp-port": 4015,
+																																																																																																																																																																																																																													                "original-address": {
+																																																																																																																																																																																																																																                "ip-address": {
+																																																																																																																																																																																																																																			                    "ipv-4-address": "poc-mwdi.vf-mw-backhaul.svc.cluster.local"
+																																																																																																																																																																																																																																					                    }
+																																																																																																																																																																																																																																							                },
+																																																																																																																																																																																																																																									            "original-tcp-port": 4015
+																																																																																																																																																																																																																																										            },
+																																																																																																																																																																																																																																											            {
+																																																																																																																																																																																																																																													                "category": "TinyApplicationController",
+																																																																																																																																																																																																																																															            "abbreviation" : "ODL",
+																																																																																																																																																																																																																																																                "component": "OpenDayLight",
+																																																																																																																																																																																																																																																		            "release": "4.0.2",
+																																																																																																																																																																																																																																																			                "fake-tcp-port": 8181,
+																																																																																																																																																																																																																																																					            "original-address": {
+																																																																																																																																																																																																																																																							                    "ip-address": {
+																																																																																																																																																																																																																																																										                        "ipv-4-address": "poc-odl.vf-mw-backhaul.svc.cluster.local"
+																																																																																																																																																																																																																																																													                }
+																																																																																																																																																																																																																																																															            },
+																																																																																																																																																																																																																																																																                "original-tcp-port": 8181
+																																																																																																																																																																																																																																																																		        }
+																																																																																																																																																																																																																																																																			    ]
+}
